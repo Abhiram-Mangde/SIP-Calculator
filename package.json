@@ -1,0 +1,12 @@
+{
+  "name": "sip-calculator",
+  "version": "1.0.0",
+  "description": "Basic Template code for the SIP Calculator with UI and mathematical Calculations.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 32px;
+    color: #fbc02d;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Form Styles */
+  .calculator label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #e3e3e3;
+  }
+  
+  .calculator input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: #34495e;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .calculator button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .calculator button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Results Section */
+  .results {
+    margin-top: 30px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffecb3;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Chart */
+  canvas {
+    margin-top: 20px;
+    max-width: 100%;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
